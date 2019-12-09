@@ -5,15 +5,14 @@ import android.os.Bundle
 import android.widget.TextView
 import android.widget.EditText
 import android.widget.Button
-import java.util.*
-
+import java.util.Random
 
 class MainActivity : AppCompatActivity() {
 
-    var et_min: EditText? = null
-    var et_max:EditText? = null
-    var b_generator: Button? = null
-    var tv_output: TextView? = null
+    private var et_min: EditText? = null
+    private var et_max:EditText? = null
+    private var b_generator: Button? = null
+    private var tv_output: TextView? = null
 
     var r: Random? = null
     var min: Int = 0
